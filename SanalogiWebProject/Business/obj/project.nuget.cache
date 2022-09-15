@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3iC37YT0qmGlZ/PZH+BEv5a6ypLALq4ipmGu/WDOwbmM4/kurWKe2PtZ+SMjOgJhvVn3NnRHszsrTlPrcCf2YA==",
+  "dgSpecHash": "eDklO4f2py2HgM0Igk9PvqgZZLp3upiQkMaTx3hL0oHuEET9M5lb0fsJCP60qgGEtQYtbnyWZGi45+4JUWatBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

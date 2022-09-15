@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xAnyiT9aaQDAltZTKQDMyHX78j8jfegAEsxlB2014+wGdAorQd4K8XgjdWzT/hSgXQ9xVVo0Y9CZ6QACjQWtiQ==",
+  "dgSpecHash": "yJtydwA3YnRKIK1AQAKc8kTuhr9yAKVwIcXTMP4Q77J0T7snIRD1KpHE7KQaz69wioy6pRgs+REd8588VZL5HA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

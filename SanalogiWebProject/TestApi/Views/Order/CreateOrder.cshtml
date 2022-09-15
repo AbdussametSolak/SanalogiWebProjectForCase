@@ -14,6 +14,10 @@
 
     <div class="container-fluid" id="orderPanel">
 
+        <!--
+       Kullanıcıdan veri girişleri almak ıcın 5 tane input koydum.
+    -->
+
         <div class="row">
             <div class="col-sm-12">
                 <h6>Order Date</h6>
@@ -63,17 +67,20 @@
 
     <div class="text-center">
         <button class="btn btn-outline-dark" id="push">Add to List</button>
+        <!--
+       Buton ile yukarıda secılen degerleri asagıda js sayesınde listeliyoruz.
+       ama henuz veritabanına bir sey gondermiyoruz.
+    -->
 
     </div>
 
     <div class="text-center container-fluid p-3" id="preOrders">
 
-        @*<div class="table-group-divider m-2">
         <!--
-        JavaScript ile secilen degerler burya listelenecek
+        JavaScript ile secilen degerler buraya listelenecek
         -->
 
-        </div>*@
+       
 
     </div>
 
@@ -89,7 +96,7 @@
 <script>
 
     document.querySelector('#push').onclick = function() {
-
+        //listeye ekle butonuna tıkladnıdgında yapılacak olan js kodlarımız.
         document.querySelector('#preOrders').innerHTML += `
                             <div class="container-fluid p-2">
 
@@ -119,12 +126,16 @@
         for (var i = 0; i < current_orders.length; i++) {
             current_orders[i].onclick = function() {
                 this.parentNode.remove();
+                //listemizde secılı sıradakı sil butonuna tıklandıgında
+                //secılı ogeyı sılme
             }
         }
         var current_orders = document.querySelectorAll("#save");
 
         for (var i = 0; i < current_orders.length; i++) {
             current_orders[i].onclick = function() {
+                //listemizde secılı sıradakı ekle butonuna tıklandıgında
+                //secılı ogeyı veritabnımıza kaydetme
                 this.parentNode.remove();
                 console.log("tıklandı");
                 var orderElement = this.parentNode.firstElementChild;
@@ -143,7 +154,7 @@
                 }
 
                 console.log(order);
-                //datayı controllere post edecegız.
+                //datayı controllere json formatında ajax ile post ediyoruz.
                 $.ajax({
                     type: "POST",
                     url: "/Order/CreateOrder",
@@ -154,7 +165,8 @@
 
                         //   window.location.href = data.redirectToUrl;
                         window.open(data.redirectToUrl, '_blank');
-                        
+                        //kaydetme islemi basarılı olunca yeni sayfa da 
+                        //listemizi goruntuledıgımız index sayfamıza gonderıyoruz.
                     },
                     error: function(data) {
                         alert(data.WhateverIsReturning);

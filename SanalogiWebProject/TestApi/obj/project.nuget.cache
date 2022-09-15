@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UV/bfPaz/SaKvQZwbkCHua4/Lz+vooVFqEjf5f3lrRGvIAsLr7Lf6zvtLed9IzAvMFA6ORQUzbPRpe94ZIGRUQ==",
+  "dgSpecHash": "XDZlltLyaZN/WUbtfe0c6uBAvheBiXlsx9oFbX6qom6kVymfZL5jmPDUu4xF85zVzBeSLs2QzDp3kmuEV4eeSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\TestApi\\TestApi.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\TestApi\\TestApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

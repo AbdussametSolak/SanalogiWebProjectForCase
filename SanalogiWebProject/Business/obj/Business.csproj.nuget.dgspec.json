@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\Business.csproj": {}
+    "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\Business.csproj": {
+    "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\Entity.csproj"
+              "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\Entity.csproj"
+              "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\Entity.csproj"
               }
             }
           }
@@ -129,14 +129,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\Entity.csproj": {
+    "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

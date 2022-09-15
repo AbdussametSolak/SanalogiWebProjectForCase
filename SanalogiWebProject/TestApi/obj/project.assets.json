@@ -1951,11 +1951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\TestApi\\TestApi.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\TestApi\\TestApi.csproj",
       "projectName": "TestApi",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\TestApi\\TestApi.csproj",
+      "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\TestApi\\TestApi.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\TestApi\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\TestApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1972,8 +1972,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Desktop\\c# alıstırma\\SanalogiWebProject\\Business\\Business.csproj"
+            "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\SanalogiWebProjectForCase\\SanalogiWebProject\\Business\\Business.csproj"
             }
           }
         }
