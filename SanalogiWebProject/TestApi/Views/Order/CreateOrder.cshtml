@@ -1,0 +1,169 @@
+﻿@using Entity.Concrete
+@model Order
+
+@{
+    ViewBag.Title = "PostView";
+    Layout = null;
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<h2 class="text-center p-3">Add Order</h2>
+
+<div class="container-fluid">
+
+    <div class="container-fluid" id="orderPanel">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h6>Order Date</h6>
+
+                <input class="form-control" id="orderDate" type="datetime-local" />
+                <br />
+
+            </div>
+            <div class="col-sm-12">
+                <h6>Company Name</h6>
+                <select class="form-control" id="companyName">
+                    <option value="X Company">X Company</option>
+                    <option value="Y Company">Y Company</option>
+                    <option value="Z Company">Z Company</option>
+                </select>
+                <br />
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h6>Product Name</h6>
+
+                <input class="form-control" id="productName" type="text" />
+                <br />
+
+            </div>
+            <div class="col-sm-12">
+                <h6>Product Quantity</h6>
+
+                <input class="form-control" id="productQuantity" type="number" min="1" />
+                <br />
+
+            </div>
+            <div class="col-sm-12">
+                <h6>Product Price</h6>
+
+                <input class="form-control" id="productPrice" type="number" min="0" />
+                <br />
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="text-center">
+        <button class="btn btn-outline-dark" id="push">Add to List</button>
+
+    </div>
+
+    <div class="text-center container-fluid p-3" id="preOrders">
+
+        @*<div class="table-group-divider m-2">
+        <!--
+        JavaScript ile secilen degerler burya listelenecek
+        -->
+
+        </div>*@
+
+    </div>
+
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+<script>
+
+    document.querySelector('#push').onclick = function() {
+
+        document.querySelector('#preOrders').innerHTML += `
+                            <div class="container-fluid p-2">
+
+                                <span id="orderName" class="container-fluid" >
+
+                                     <span id="#orderDateColumn" style="display:none"> ${document.querySelector('#orderPanel #orderDate').value}</span>
+                                     <span id="#companyNameColumn" style="display:none"> ${document.querySelector('#orderPanel #companyName').value}</span>
+                                    <span id="#productNameColumn"> ${document.querySelector('#orderPanel #productName').value}</span>
+                                    <span id="#productQuantityColumn"> ${document.querySelector('#orderPanel #productQuantity').value}</span>
+                                   <span id="#productPriceColumn"> ${document.querySelector('#orderPanel #productPrice').value}</span>
+
+
+                                </span>
+                                 <button id="delete" class="btn btn-outline-danger">
+                                    <i class="bi bi-trash3"></i>
+                                </button>
+                                <button id="save" class="btn btn-outline-success">
+                                    <i class="bi bi-save"></i>
+                                </button>
+
+
+                            </div>
+
+                        `;
+
+        var current_orders = document.querySelectorAll("#delete");
+        for (var i = 0; i < current_orders.length; i++) {
+            current_orders[i].onclick = function() {
+                this.parentNode.remove();
+            }
+        }
+        var current_orders = document.querySelectorAll("#save");
+
+        for (var i = 0; i < current_orders.length; i++) {
+            current_orders[i].onclick = function() {
+                this.parentNode.remove();
+                console.log("tıklandı");
+                var orderElement = this.parentNode.firstElementChild;
+
+                var date = orderElement.children[0].innerHTML;
+                var cmpName = orderElement.children[1].innerHTML;
+                var prdctName = orderElement.children[2].innerHTML;
+                var quantity = orderElement.children[3].innerHTML;
+                var price = orderElement.children[4].innerHTML;
+                var order = {
+                    "orderDate": date,
+                    "companyName": cmpName,
+                    "productQuantity": parseInt(quantity),
+                    "productName": prdctName,
+                    "productPrice": parseFloat(price)
+                }
+
+                console.log(order);
+                //datayı controllere post edecegız.
+                $.ajax({
+                    type: "POST",
+                    url: "/Order/CreateOrder",
+                    data: order,
+                    dataType: "json",
+                    success: function(data) {
+                        alert('Saved!');
+
+                        //   window.location.href = data.redirectToUrl;
+                        window.open(data.redirectToUrl, '_blank');
+                        
+                    },
+                    error: function(data) {
+                        alert(data.WhateverIsReturning);
+
+                    }
+                });
+            }
+        }
+
+    }
+
+</script>
