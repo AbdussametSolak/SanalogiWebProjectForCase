@@ -21,6 +21,7 @@ Birden fazla dal olabilitesi de dusunerek metot imzalarimiz icin Generic yapida 
 Dalımızın metot imzalarini generic interfaceden implemente ettim
 İmplemantasyonlarini da base classtan implemente ettim
 
+![1](https://user-images.githubusercontent.com/106724879/190357145-e0c1af77-311c-4c1f-ae30-cca316575897.png)
 
 Business Katmani 
 
@@ -28,6 +29,7 @@ Burada isimizi yapacak Ordermanager adinda bir classa ihtiyacımız var. Bu clas
 IOrderService de metot ımzalarımız var.
 IOrderManagerde metotlarımızı implemente ettim.
 Depenedency injection ile data access katmanına gevsek bagımlılık yaptım.
+![2](https://user-images.githubusercontent.com/106724879/190357160-9596891e-103e-4280-b9a4-ba1b0dd49591.png)
 
 Api ve Sunum Katmani
 
