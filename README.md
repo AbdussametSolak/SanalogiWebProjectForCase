@@ -4,12 +4,11 @@ Bu yuzden veritabanimi visual studyonun icerisinde bulunan sql server object ile
 
 Projemizde 4 katmanimiz var.
 
-Entity Katmani
+# Entity Katmani
 
 Burada veritabanimizda bulunan tablumuzu class olarak aciyoruz ve icerisine kolonlarimizi property olarak ekliyoruz.
 
-
-Data Acces Katmani
+# Data Acces Katmani
 
 Adindan anlasilacagi uzere Veriye erisim katmanimiz
 Crud operasyonlari icin gerekli dalimiz burada  
@@ -21,14 +20,14 @@ Birden fazla dal olabilitesi de dusunerek metot imzalarimiz icin Generic yapida 
 Dalımızın metot imzalarini generic interfaceden implemente ettim
 İmplemantasyonlarini da base classtan implemente ettim
 
-Business Katmani 
+# Business Katmani 
 
 Burada isimizi yapacak Ordermanager adinda bir classa ihtiyacımız var. Bu classımızı IOrderService den soyutladım.
 IOrderService de metot ımzalarımız var.
 IOrderManagerde metotlarımızı implemente ettim.
 Depenedency injection ile data access katmanına gevsek bagımlılık yaptım.
 
-Api ve Sunum Katmani
+# Api ve Sunum Katmani (.Net Core)
 
 Api Controllerimde get ve post apilerimi yazdım.Swaggerda ve postmande kontrol ettıkten sonra
 Sunum tarafında bu apilerime istek atıp gelen cevapları arayuzumuzde donderdım.
