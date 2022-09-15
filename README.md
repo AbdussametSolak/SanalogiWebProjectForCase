@@ -21,8 +21,6 @@ Birden fazla dal olabilitesi de dusunerek metot imzalarimiz icin Generic yapida 
 Dalımızın metot imzalarini generic interfaceden implemente ettim
 İmplemantasyonlarini da base classtan implemente ettim
 
-![1](https://user-images.githubusercontent.com/106724879/190357145-e0c1af77-311c-4c1f-ae30-cca316575897.png)
-
 Business Katmani 
 
 Burada isimizi yapacak Ordermanager adinda bir classa ihtiyacımız var. Bu classımızı IOrderService den soyutladım.
@@ -35,3 +33,9 @@ Api ve Sunum Katmani
 
 Api Controllerimde get ve post apilerimi yazdım.Swaggerda ve postmande kontrol ettıkten sonra
 Sunum tarafında bu apilerime istek atıp gelen cevapları arayuzumuzde donderdım.
+Sunum icin Html, JavaScript kullandım.
+Css için de Bootstrap kutuphanesınden faydalandım.
+
+Projeme ait gorseller ve video linki asagıdadır.
+![1](https://user-images.githubusercontent.com/106724879/190357145-e0c1af77-311c-4c1f-ae30-cca316575897.png)
+![1](https://user-images.githubusercontent.com/106724879/190357145-e0c1af77-311c-4c1f-ae30-cca316575897.png)
