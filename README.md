@@ -37,3 +37,4 @@ Css için de Bootstrap kutuphanesınden faydalandım.
 
 Projeme ait gorseller ve video linki asagıdadır.
 ![1](https://user-images.githubusercontent.com/106724879/190357145-e0c1af77-311c-4c1f-ae30-cca316575897.png)
+![2](https://user-images.githubusercontent.com/106724879/190358421-b469ac64-9fd9-4a83-b083-f3a8cef966b5.png)
